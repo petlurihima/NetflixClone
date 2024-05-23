@@ -1,0 +1,271 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:linear-gradient(rgba(59,55,55,0.5),rgba(9,8,8,0.821)),url(netflix.png);
+    height:90vh;
+    position:relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.middle{
+    margin-top: 25vh;
+}
+#start{
+    font-size:60px;
+    color:white;
+    margin-left:180px;
+}
+#first{
+    margin-top:20px;
+    font-size:25px;
+    color:white;
+    margin-left:500px;
+}
+#second{
+    margin-top:20px;
+    color:white;
+    font-size:25px;
+    margin-left:350px;
+    margin-bottom: 10px;
+}
+input{
+    height:6vh;
+    width:28vw;
+    margin-left:400px;
+    background-color:rgb(40, 36, 36);
+}
+::placeholder{
+    color:white;
+}
+#btn1{
+    background-color:red;
+    height:6vh;
+    width:15vw;
+    font-size:20px;
+    margin-left: 10px;
+}
+.separation{
+    height:10px;
+    background-color:grey;
+}
+.first{
+    display:flex;
+    margin-bottom: 60px;
+}
+.firstsub1{
+    margin-left:20px;
+    margin-top: 220px;
+}
+.firstsub1 h1{
+    color:white;
+    font-weight: bold;
+    padding-left: 35px;
+}
+.firstsub1 p{
+    color:white;
+    font-size:20px;
+    padding-left: 30px;
+}
+.firstsub2{
+    position:relative;
+    height:500px;
+    right:13%;
+}
+.firstsub2 img{
+    position:absolute;
+    left:40%;
+}
+.firstsub2 video{
+    position:relative;
+    left:56%;
+    padding-top: 90px;
+    max-width: 100%;
+}
+.ssub11{
+    height:13vh;
+    width:29vw;
+    border:1px solid white;
+    border-radius: 10px;
+    margin-left:100px;
+    position: absolute;
+    display: flex;
+}
+.secondsub1 img{
+    width:40vw;
+    margin-left:40px;
+    padding-top: 10px;
+    position: relative;
+    top:30px;
+}
+.second{
+    height:500px;
+    display:flex;
+    margin-bottom:150px;
+}
+.ssub11 img{
+    height:60px;
+    width:40px;
+    margin-left:9px;
+    top:3px;
+}
+.pa{
+    margin-left: 40px;
+    padding-top:28px;
+}
+#down{
+    margin-left:110px;
+}
+.secondsub2 h1{
+    color:white;
+    font-size: 50px;
+    margin-left: 80px;
+}
+.secondsub2 p{
+    color:white;
+    font-size:30px;
+    margin-left: 80px;
+}
+.secondsub2{
+    padding-top: 200px;
+}
+.thirdsub1{
+    width:45vw;
+    margin-top: 200px;
+}
+.thirdsub1 h1{
+    color:white;
+    font-size:50px;
+    margin-left:40px;
+}
+.thirdsub1 p{
+    color:white;
+    font-size:25px;
+    margin-left:40px;
+}
+.third{
+    display:flex;
+    margin-bottom:300px;
+}
+.thirdsub2{
+    margin-top: 100px;
+    position:relative;
+    right:13%;
+}
+.thirdsub2 img{
+    position:absolute;
+    left:40%;
+}
+.thirdsub2 video{
+    position:relative;
+    left:70%;
+    height:250px;
+    width:400px;
+    top:65px;
+    max-width: 100%;  
+}
+
+.fourth{
+    display: flex;
+    margin-bottom:50px;
+}
+.forsub1{
+    margin-top: 60px;
+}
+.forsub2{
+    margin-top: 190px;
+}
+.forsub2 h1{
+    color:white;
+    font-size: 60px;
+}
+.forsub2 p{
+    color:white;
+    font-size:30px;
+}
+.fifth{
+    margin-top: 50px;
+}
+.fifth h1{
+    color:white;
+    font-size:70px;
+    margin-left:250px;
+    margin-bottom: 20px;
+}.fir{
+    margin-bottom: 20px;
+}
+.fir1{
+    background-color:rgba(88, 85, 85, 0.5);
+    height:65px;
+    width:95%;
+    margin-left: 30px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fir1 p{
+    color:white;
+    font-size:33px;
+    position:relative;
+    margin-left:55px;
+}
+.sep{
+    height:15px;
+    background-color: black;
+}
+.sec{
+    margin-top:30px;   
+}
+.sec p{
+    color:white;
+    font-size:25px;
+    margin-left: 325px;
+    margin-bottom: 20px;
+}
+.thr{
+    margin-bottom:60px;
+}
+.last{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.l1{
+    display: flex;
+}
+.last p{
+    color:white;
+}
+.last a{
+    color:white;
+}
+.l2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.l21{
+    width:500px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display:block;
+    padding:10px;
+}
+.ll{
+    margin-left:40px;
+}
+.ll select{
+    background-color: black;
+    color:white;
+    margin-bottom: 20px;;
+}
